@@ -7,8 +7,7 @@ interface SwitchProps extends StandardProps, FormItemProps {
    */
   checked?: boolean
   /** 设置在 React 非受控状态下，当前是否选中
-   * @supported weapp, alipay, swan, tt, qq, jd, h5, rn
-   * @unique
+   * @supported h5, rn
    */
   defaultChecked?: boolean
   /** 是否禁用
